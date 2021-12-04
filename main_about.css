@@ -1,0 +1,30 @@
+.bg_image {
+  background:rgba(0, 0, 0, 0.1) url(/images/kappadok_2.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-blend-mode: darken;
+  background-position: center center;
+
+  animation-name: change-images;
+  animation-duration: 40s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+
+}
+@keyframes change-images {
+  0% {
+     background-image: url(/images/kappadok_2.jpg);
+  }
+  35% {
+      background-image: url(/images/background_2.jpg);
+  }
+  65% {
+    background-image: url(/images/background_3.jpg);
+  }
+  100% {
+    background-image: url(/images/kappadok_2.jpg);
+  }
+  }
