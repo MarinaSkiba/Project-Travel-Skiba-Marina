@@ -1,14 +1,16 @@
-@import "../general.css";
+@import "general.css";
 :root {
   --bg-color: var(--orange);
 }
 .bg_image {
-  background: url(images/kappadok_2.jpg);
+  background: url(../images/kappadok_2.jpg);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center center;
+  background-attachment: fixed;
+  
   
   animation-name: change-images;
   animation-duration: 50s;
@@ -18,16 +20,16 @@
 }
 @keyframes change-images {
   0% {
-     background-image: url(images/kappadok_2.jpg);
+     background-image: url(../images/kappadok_2.jpg);
   }
   35% {
-      background-image: url(images/background_2.jpg);
+      background-image: url(../images/background_2.jpg);
   }
   65% {
-    background-image: url(images/background_3.jpg);
+    background-image: url(../images/background_3.jpg);
   }
   100% {
-    background-image: url(images/kappadok_2.jpg);
+    background-image: url(../images/kappadok_2.jpg);
   }
 }
  .inner_text-block-item {
@@ -65,12 +67,13 @@ h2 {
  justify-content: center;
 }
 .special_tours {
-  background-image: url(images/Moraine-Lake.jpg);
+  background-image: url(../images/Moraine-Lake.jpg);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center center;
+  background-attachment: fixed;
 }
 .special_tours-block {
   height: 100vh;
@@ -92,13 +95,13 @@ h2 {
   border: 5px solid rgba(212, 210, 210, 0.473)
 }
 .special_tours-block-item-img1 {
-  background-image: url(images/свадьба.jpg);
+  background-image: url(../images/свадьба.jpg);
 }
 .special_tours-block-item-img2 {
-  background-image: url(images/испания\ тур.jpg);
+  background-image: url(../images/испания\ тур.jpg);
 }
 .special_tours-block-item-img3 {
-  background-image: url(images/арарат.jpg);
+  background-image: url(../images/арарат.jpg);
 }
 .special_tours-block-item-text {
   overflow: hidden;
@@ -116,7 +119,7 @@ h2 {
 }
 .special_tours-block-item-text > p {
   padding: 20px 5px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
 }
 
 .destination_container {
@@ -141,8 +144,6 @@ h2 {
   margin-left: 10px;
   padding: 5px 5px; 
   position: relative;
- 
-  
 }
 .destination_container-text-title {
   padding: 5px;
@@ -156,23 +157,6 @@ h2 {
   padding: 5px;
   font-size: 20px;
   font-style: italic;
-}
-.destination_container-text-link {
-  padding: 10px;
-  margin-top: 20px;
-  text-decoration: none;
-  display: inline-block;
-  max-width: 200px;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-  color: black;
-  background: var(--bg-color);
-  border-radius: 20px;
-  
 }
 
 
