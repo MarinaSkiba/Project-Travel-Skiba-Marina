@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans',sans-serif;
+  
+}
+body {
+  background-color: rgb(238, 238, 238);
+  
+}
+.header_logo-text {
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.country_container-img {
+width: 600px;
+height: 400px;
+margin: 20px 20px 50px 20px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+font-size: 40px;
+font-stretch: condensed;
+font-weight: bold;
+color: #fff;
+transition: all .8s ease;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+
+}
+.country_container-img:hover {
+  font-size: 50px;
+  opacity: 0.8;
+}
+.country_title1 {
+  text-align: center;
+  margin: 10px 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.country_title {
+  text-align: center;
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.container-bg1 {
+background-image: url(../images/карпаты.jpg);
+}
+.container-bg2 {
+background-image: url(../images/гора\ арарат.jpg);
+}
+.container-bg3 {
+ background-image: url(../images/альпы\ в\ италии.jpg);
+}
+.container-bg4 {
+  background-image: url(../images/дайвинг.jpg);
+}
+.container-bg5 {
+  background-image: url(../images/Болгария.jpg);
+}
+.container-bg6 {
+  background-image: url(../images/Черногория.jpg);
+}
+.container-bg7 {
+  background-image: url(../images/египет.jpg);
+}
+.container-bg8 {
+  background-image: url(../images/оаэ.jpeg);
+}
+.container-bg9 {
+  background-image: url(../images/амстердам.jpg);
+}
+.container-bg10 {
+  background-image: url(../images/пекин.jpg);
+}
+.container-bg11 {
+  background-image: url(../images/венеция.jpeg);
+}
+.container-bg12 {
+  background-image: url(../images/сингапур.jpg);
+}
+.country_container {
+display: flex;
+justify-content: space-around;
+}

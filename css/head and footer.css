@@ -4,12 +4,13 @@
   margin: 0;
   padding: 0;
 }
-header {
+.header {
   width: 100%;
   position: absolute;
   
 }
-div.header_logo {
+.header_logo,
+.header_logo2 {
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   font-family: 'Fuzzy Bubbles', cursive;
@@ -21,7 +22,7 @@ div .logo_img > img {
   margin: 1px;
   padding: 1px;
 }
-.header_logo > h3 {
+.header_logo-text {
   margin: 1px;
   padding: 1px;
   color: #fff;
