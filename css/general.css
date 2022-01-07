@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
 :root {
   --orange: #F8A73F; 
 }
 .button-orange {
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
+ 
   text-decoration: none;
   display: inline-block;
   max-width: 200px;
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: 'Roboto',sans-serif;
   font-weight: bold;
   font-size: 11px;
   color: black;

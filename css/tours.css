@@ -1,0 +1,150 @@
+:root {
+  --bg-color: var(--orange);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Open Sans',sans-serif;
+}
+body {
+  background-color: #fcf1e0;
+}
+.uae-bg {
+  background: url(../images/саадият.jpg);
+}
+.turkey-bg {
+  background: url(../images/отель\ турция.jpg);
+}
+.germany-bg {
+  background-image: url(../images/германия.jpg);
+}
+.indonesia-bg {
+  background-image: url(../images/индонезия.jpg);
+}
+.haikou-bg {
+  background-image: url(../images/хайкоу.jpg);
+}
+.sri-lanka-bg {
+  background-image: url(../images/шри-ланка.jpg);
+}
+.tours_container {
+  display: block;
+  width: 50%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 2px 10px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.tours {
+  display: flex;
+  margin: 10px 0;
+}
+.title {
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-right {
+  border-left: 1px solid #99998f;
+  box-shadow: -8px 5px 7px -7px rgba(34, 60, 80, 0.6);
+}
+.text-left {
+  border-right: 1px solid #99998f;
+  box-shadow: 8px 5px 7px -7px rgba(34, 60, 80, 0.6);
+}
+.tours_text,
+.tours_content {
+  width: 50%;
+  margin: 10px 20px;
+  padding: 15px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 80vh;
+}
+.tours_text-title {
+ text-align: center;
+ padding: 10px 2px;
+}
+.tours_bottom-price {
+  float: right;
+  padding: 10px ;
+  margin: 5px;
+  font-weight: bold;
+}
+.tours_bottom-button {
+  margin: 5px;
+  padding: 10px;
+}
+.tours_bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+figcaption {
+ text-align: left;
+ padding: 100px 50px;
+ color: #fff;
+ text-transform: uppercase;
+ font-size: 20px;
+ backface-visibility: hidden;
+ position: relative;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+figcaption > h2,
+figcaption > p {
+  transform: translate3d(0,40px,0);
+  transition: transform 0.35s;
+  transform: translate3d(0,40px,0);
+}
+figcaption > p {
+  color: rgba(255,255,255,0.8);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+}
+.tours_container:hover h2,
+.tours_container:hover p {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+.tours_container:hover p {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  opacity: 1;
+}
+.tours_container:hover figcaption::before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.tours_container:hover figcaption {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+

@@ -9,9 +9,15 @@
   position: absolute;
   
 }
+.header_bg {
+  background-image: url(../images/pngwing.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 0 40%;
+}
 .header_logo,
 .header_logo2 {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   text-align: center;
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 15px;
@@ -32,6 +38,7 @@ div .logo_img > img {
   background-color: rgba(0, 0, 0, 0.4);
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
+ 
 }
 .topnav li {
   display: inline-block;
@@ -50,7 +57,7 @@ div .logo_img > img {
 
 }
 .footer_container {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: space-around;
   align-items: center;
