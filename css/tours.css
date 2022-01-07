@@ -40,6 +40,9 @@ body {
   position: relative;
   cursor: pointer;
 }
+.tours_container:active {
+  opacity: 0.5;
+}
 .tours {
   display: flex;
   margin: 10px 0;

@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {display: flex;
+  flex-direction: column;
+  min-height: 100vh;}
+.main {flex: 1;}
+.contacts {
+  background-image: url(../images/лаванда.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.contacts_container-info {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.contacts_container-title-text {
+  padding: 5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.contacts_container-info-left-quote{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 25px;
+  color: white;
+}
+.contacts_container-info-left-text {
+   border: 1px solid white;
+   text-align: center;
+   padding: 10px;
+   margin: 0 100px;
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   -webkit-box-shadow: 3px 3px 16px 1px rgba(0, 0, 0, 0.6);
+-moz-box-shadow: 3px 3px 16px 1px rgba(0, 0, 0, 0.6);
+box-shadow: 3px 3px 16px 1px rgba(0, 0, 0, 0.6);
+}
+.contacts_container-info-left p {
+  padding: 5px;
+}
+iframe {
+  box-shadow: 3px 3px 16px 1px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 3px 3px 16px 1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 3px 3px 16px 1px rgba(0, 0, 0, 0.6);
+}
+.subscription_text {
+  text-align: center;
+  margin: 10px 20px;
+}
+.subscription_text h2 {
+  font-size: 40px;
+  padding: 10px 10px;
+  margin-bottom: 50px;
+  color: #db5c01;
+}
+.subscription_text p {
+  font-size: 20px;
+  padding: 10px;
+  margin: 50px 5px;
+}
+input[type="text"],
+input[type="number"] {
+  width: 200px;
+  height: 50px;
+  font-size: 18;
+  padding: 5px 5px;
+  margin: 5px 10px 25px 10px;
+  border: none;
+  border-bottom: 2px solid #db5c01;
+  outline:none ;
+}
+input[type="text"]:hover,
+input[type="number"]:hover{
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.subscription_form {
+  text-align: center;
+}
+.button {
+  border: 2px solid #db5c01;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 10px;
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px #db5c01 inset, 0 0 0 0 #f18d45;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.button:hover,
+.button:active {
+  color: black;
+  box-shadow: 0 0 10px 0 #db5c01 inset, 0 0 10px 4px #db5c01;
+}
+
