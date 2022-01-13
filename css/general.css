@@ -6,22 +6,24 @@
   --orange: #F8A73F; 
 }
 .button-orange {
-  padding: 10px 20px 10px 20px;
-  margin-top: 20px;
- 
+  border: 2px solid #db5c01;
+  color: white;
+  padding: 10px 20px;
   text-decoration: none;
-  display: inline-block;
-  max-width: 200px;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: 'Roboto',sans-serif;
-  font-weight: bold;
-  font-size: 11px;
-  color: black;
-  background: var(--bg-color);
   border-radius: 10px;
-  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 10px;
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px #db5c01 inset, 0 0 0 0 #f18d45;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
+.button-orange:hover,
+.button-orange:active {
+  color: black;
+  box-shadow: 0 0 10px 0 #db5c01 inset, 0 0 10px 4px #db5c01;

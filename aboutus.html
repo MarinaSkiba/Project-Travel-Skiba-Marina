@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Memorable Travel</title>
   <link rel="stylesheet" href="css/page_about_us.css">
-  <link rel="stylesheet" href="css/head and footer.css">
+  <link rel="stylesheet" href="css/head_and_footer.css">
   <link rel="stylesheet" href="css/form.css">
 
 </head>
@@ -20,152 +20,158 @@
       </div>
       <h3 class="header_logo-text">Memorable Travel</h3>
     </div>
-    <nav class="topnav">
-      <ul>
-        <li><a href="aboutus.html">О нас</a></li>
-        <li><a href="country.html">Страны</a></li>
-        <li><a href="tours.html">Туры</a></li>
-        <li><a href="">Инфорация</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-      </ul>
-    </nav>
+    <div class="header_menu">
+      <div class="menu_icon">
+        <span></span>
+      </div>
+      <nav class="topnav">
+        <ul>
+          <li><a href="aboutus.html">О нас</a></li>
+          <li><a href="country.html">Страны</a></li>
+          <li><a href="tours.html">Туры</a></li>
+          <li><a href="info.html">Инфорация</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
-    <div>
-      <div class="bg_image">
-        <div class="form_title">
-          <div class="form_title-quote">
-            <h1>Memorable Travel</h1>
-            <p>«Мир – это книга, и те, кто не путешествуют, успевают прочесть лишь первую страницу»
-              Ст. Августин.</p>
-          </div>
-          <div class="wrapper">
-            <div class="wrapper_form">
-              <form action="#" class="wrapper_form_body">
-                <h2 class="form_title">Куда поехать?</h2>
-                <div class="form_item">
-                  <label for="form_Where" class="form_label">Куда</label>
-                  <input type="text" name="where" id="form_Where" class="form_input" placeholder="Амстердам">
-                </div>
-                <div class="form_item">
-                  <label for="form_route" class="form_label">Откуда</label>
-                  <input type="text" name="route" id="form_route" class="form_input" placeholder="Минск">
-                </div>
-                <div class="form_item-date">
-                  <p class="form_label">Дата</p>
-                  <label for="form_date" class="form_label">С</label>
-                  <input type="date" name="date" id="form_date" class="form_input" placeholder="25.06.2021">
-                  <label for="form_date" class="form_label">По</label>
-                  <input type="date" name="date" id="form_date" class="form_input" placeholder="01.07.2021">
-                </div>
-                <div class="form_item">
-                  <label for="form_number" class="form_label">Количество</label>
-                  <input type="text" name="number" id="form_number" class="form_input" placeholder="2">
-                </div><br>
-                <button>Найти</button>
-              </form>
-            </div>
+    <div class="bg_image">
+      <div class="form_title">
+        <div class="form_title-quote">
+          <h1>Memorable Travel</h1>
+          <p>«Мир – это книга, и те, кто не путешествуют, успевают прочесть лишь первую страницу»
+            Ст. Августин.</p>
+        </div>
+        <div class="wrapper">
+          <div class="wrapper_form">
+            <form action="#" class="wrapper_form_body">
+              <h2 class="form_title">Куда поехать?</h2>
+              <div class="wrapper_form-line">
+              <div class="form_item">
+                <label for="form_Where" class="form_label">Куда</label>
+                <input type="text" name="where" id="form_Where" class="form_input" placeholder="Амстердам">
+              </div>
+              <div class="form_item">
+                <label for="form_route" class="form_label">Откуда</label>
+                <input type="text" name="route" id="form_route" class="form_input" placeholder="Минск">
+              </div>
+              <div class="form_item-date">
+                <p class="form_label">Дата</p>
+                <label for="form_date" class="form_label">С</label>
+                <input type="date" name="date" id="form_date" class="form_input" placeholder="25.06.2021">
+                <label for="form_date" class="form_label">По</label>
+                <input type="date" name="date" id="form_date" class="form_input" placeholder="01.07.2021">
+              </div>
+              <div class="form_item">
+                <label for="form_number" class="form_label">Количество</label>
+                <input type="text" name="number" id="form_number" class="form_input" placeholder="2">
+              </div><br>
+              </div>
+              <button>Найти</button>
+            </form>
           </div>
         </div>
       </div>
-      <div class="about">
-        <h2>Почему именно мы?</h2>
-        <div class="inner_text">
-          <div class="inner_text-block">
-            <span class="inner_text-block-icon"><img src="Icons/icons8-обслуживание-48.png" alt="обслуживание"></span>
-            <div class="inner_text-block-item">
-              <h4>Поддержка 24/7</h4>
-              <p>Наши турагенты всегда готовы помочь вам во время поездки.</p>
-            </div>
-          </div>
-          <div class="inner_text-block">
-            <span class="inner_text-block-icon"><img src="Icons/icons8-огонь-48.png" alt="огонь"></span>
-            <div class="inner_text-block-item">
-              <h4>Горячие туры</h4>
-              <p>Лучшие сезонные предложения которые вы можете представить себе.</p>
-            </div>
-          </div>
-          <div class="inner_text-block">
-            <span class="inner_text-block-icon"><img src="Icons/icons8-взлет-самолета-48.png" alt="сервис"></span>
-            <div class="inner_text-block-item">
-              <h4>Лучший сервис</h4>
-              <p>Работа со всемирными компаниями.</p>
-            </div>
-          </div>
-          <div class="inner_text-block">
-            <span class="inner_text-block-icon"><img src="Icons/icons8-дешево-2-48.png" alt="монета"></span>
-            <div class="inner_text-block-item">
-              <h4>Лучшие цены</h4>
-              <p>Самые выгодные цены по сравнению с конкурентами.</p>
-            </div>
-          </div>
-          <div class="inner_text-block">
-            <span class="inner_text-block-icon"><img src="Icons/icons8-подарок-48.png" alt="подарок"></span>
-            <div class="inner_text-block-item">
-              <h4>Подарки</h4>
-              <p>Индивидуальные подарки каждому клиенту.</p>
-            </div>
-          </div>
-          <div class="inner_text-block">
-            <span class="inner_text-block-icon"><img src="Icons/icons8-звезда-48.png" alt="звезда"></span>
-            <div class="inner_text-block-item">
-              <h4>Мировое качество</h4>
-              <p>Филиалы нашей компании есть в 11 странах мира.</p>
-            </div>
+    </div>
+    <div class="about">
+      <h2>Почему именно мы?</h2>
+      <div class="inner_text">
+        <div class="inner_text-block">
+          <span class="inner_text-block-icon"><img src="Icons/icons8-обслуживание-48.png" alt="обслуживание"></span>
+          <div class="inner_text-block-item">
+            <h4>Поддержка 24/7</h4>
+            <p>Наши турагенты всегда готовы помочь вам во время поездки.</p>
           </div>
         </div>
-        <h2>Выбирая Memorable Travel вы гарантируете себе лучший отпуск!</h2>
-      </div>
-      <div class="special_tours">
-        <div class="special_tours-block">
-          <div class="special_tours-block-item">
-            <div class="special_tours-block-item-img1"></div>
-            <div class="special_tours-block-item-text">
-              <h5>Свадьба на берегу моря</h5>
-              <span>-------------------------------</span>
-              <p>Отель на Майорке, окруженный горным хребтом, удачно разместился на высокой скале с видом на рыбацкую
-                деревушку.
-                Кажется, будто отель плывет между небом и морем.
-                Ваша церемония будет незабываема.</p>
-              <a role="button" class="button-orange" href="#">Подробнее</a>
-            </div>
+        <div class="inner_text-block">
+          <span class="inner_text-block-icon"><img src="Icons/icons8-огонь-48.png" alt="огонь"></span>
+          <div class="inner_text-block-item">
+            <h4>Горячие туры</h4>
+            <p>Лучшие сезонные предложения которые вы можете представить себе.</p>
           </div>
-          <div class="special_tours-block-item">
-            <div class="special_tours-block-item-img2"></div>
-            <div class="special_tours-block-item-text">
-              <h5>Кулинарные туры в Испанию</h5>
-              <span>-------------------------------</span>
-              <p>Местные блюда — одна из достопримечательностей Испании.
-                Еда здесь — главное национальное удовольствие и почти всегда ритуал.
-                Традиционная крестьянская испанская пища очень простая, и в этом залог ее успеха.</p>
-              <a role="button" class="button-orange" href="#">Подробнее</a>
-            </div>
+        </div>
+        <div class="inner_text-block">
+          <span class="inner_text-block-icon"><img src="Icons/icons8-взлет-самолета-48.png" alt="сервис"></span>
+          <div class="inner_text-block-item">
+            <h4>Лучший сервис</h4>
+            <p>Работа со всемирными компаниями.</p>
           </div>
-          <div class="special_tours-block-item">
-            <div class="special_tours-block-item-img3"></div>
-            <div class="special_tours-block-item-text">
-              <h5>Восхождение на гору Арарат</h5>
-              <span>--------------------------------</span>
-              <p>Большой Арарат 5165 м - грандиозный вулканический массив, мощно возвышающийся над окрестными плато.
-                Эта священная библейская гора видна за десятки километров, в том числе из Еревана.</p>
-              <a role="button" class="button-orange" href="#">Подробнее</a>
-            </div>
+        </div>
+        <div class="inner_text-block">
+          <span class="inner_text-block-icon"><img src="Icons/icons8-дешево-2-48.png" alt="монета"></span>
+          <div class="inner_text-block-item">
+            <h4>Лучшие цены</h4>
+            <p>Самые выгодные цены по сравнению с конкурентами.</p>
+          </div>
+        </div>
+        <div class="inner_text-block">
+          <span class="inner_text-block-icon"><img src="Icons/icons8-подарок-48.png" alt="подарок"></span>
+          <div class="inner_text-block-item">
+            <h4>Подарки</h4>
+            <p>Индивидуальные подарки каждому клиенту.</p>
+          </div>
+        </div>
+        <div class="inner_text-block">
+          <span class="inner_text-block-icon"><img src="Icons/icons8-звезда-48.png" alt="звезда"></span>
+          <div class="inner_text-block-item">
+            <h4>Мировое качество</h4>
+            <p>Филиалы нашей компании есть в 11 странах мира.</p>
           </div>
         </div>
       </div>
-      <div class="destination">
-        <div class="destination_container">
-          <div class="destination_container-map">
-            <img class="destination_container-map-img" src="images/giphy.gif" alt="карта">
+      <h2>Выбирая Memorable Travel вы гарантируете себе лучший отпуск!</h2>
+    </div>
+    <div class="special_tours">
+      <div class="special_tours-block">
+        <div class="special_tours-block-item">
+          <div class="special_tours-block-item-img1"></div>
+          <div class="special_tours-block-item-text">
+            <h5>Свадьба на берегу моря</h5>
+            <span>-------------------------------</span>
+            <p>Отель на Майорке, окруженный горным хребтом, удачно разместился на высокой скале с видом на рыбацкую
+              деревушку.
+              Кажется, будто отель плывет между небом и морем.
+              Ваша церемония будет незабываема.</p>
+            <a role="button" class="button-orange" href="#">Подробнее</a>
           </div>
-          <div class="destination_container-text">
-            <h3 class="destination_container-text-title">Вы ищите лучшие туры?</h3>
-            <p class="destination_container-text-txt">Открой для себя мир путешествий с нами!</p>
-            <p class="destination_container-text-quote">"Посмотри на мир. Он куда идивительнее снов." -Рэй Бредбери</p>
-            <a role="button" class="destination_container-text-link button-orange" href="">Найди свой тур</a>
+        </div>
+        <div class="special_tours-block-item">
+          <div class="special_tours-block-item-img2"></div>
+          <div class="special_tours-block-item-text">
+            <h5>Кулинарные туры в Испанию</h5>
+            <span>-------------------------------</span>
+            <p>Местные блюда — одна из достопримечательностей Испании.
+              Еда здесь — главное национальное удовольствие и почти всегда ритуал.
+              Традиционная крестьянская испанская пища очень простая, и в этом залог ее успеха.</p>
+            <a role="button" class="button-orange" href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="special_tours-block-item">
+          <div class="special_tours-block-item-img3"></div>
+          <div class="special_tours-block-item-text">
+            <h5>Восхождение на гору Арарат</h5>
+            <span>--------------------------------</span>
+            <p>Большой Арарат 5165 м - грандиозный вулканический массив, мощно возвышающийся над окрестными плато.
+              Эта священная библейская гора видна за десятки километров, в том числе из Еревана.</p>
+            <a role="button" class="button-orange" href="#">Подробнее</a>
           </div>
         </div>
       </div>
+    </div>
+    <div class="destination">
+      <div class="destination_container">
+        <div class="destination_container-map">
+          <img class="destination_container-map-img" src="images/giphy.gif" alt="карта">
+        </div>
+        <div class="destination_container-text">
+          <h3 class="destination_container-text-title">Вы ищите лучшие туры?</h3>
+          <p class="destination_container-text-txt">Открой для себя мир путешествий с нами!</p>
+          <p class="destination_container-text-quote">"Посмотри на мир. Он куда идивительнее снов." -Рэй Бредбери</p>
+          <a role="button" class="destination_container-text-link button-orange" href="">Найди свой тур</a>
+        </div>
+      </div>
+    </div>
   </main>
   <footer>
     <div class="footer_container">
@@ -203,6 +209,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/burger.js"></script>
 </body>
 
 </html>

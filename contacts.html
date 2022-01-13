@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Контакты</title>
-  <link rel="stylesheet" href="css/head and footer.css">
+  <link rel="stylesheet" href="css/head_and_footer.css">
   <link rel="stylesheet" href="css/contacts.css">
   <link rel="stylesheet" href="css/general.css">
 </head>
@@ -19,19 +19,24 @@
       </div>
       <h3 class="header_logo-text">Memorable Travel</h3>
     </div>
-    <nav class="topnav">
-      <ul>
-        <li><a href="aboutus.html">О нас</a></li>
-        <li><a href="country.html">Страны</a></li>
-        <li><a href="tours.html">Туры</a></li>
-        <li><a href="">Инфорация</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-      </ul>
-    </nav>
+    <div class="header_menu">
+      <div class="menu_icon">
+        <span></span>
+      </div>
+      <nav class="topnav">
+        <ul>
+          <li><a href="aboutus.html">О нас</a></li>
+          <li><a href="country.html">Страны</a></li>
+          <li><a href="tours.html">Туры</a></li>
+          <li><a href="info.html">Инфорация</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
-    <div class="contacts">
-      <section class="contacts_container">
+    <section class="contacts">
+      <div class="contacts_container">
         <div class="contacts_container-info">
           <div class="contacts_container-info-left">
             <h1 class="contacts_container-title-text">Контакты</h1>
@@ -58,34 +63,70 @@
               width="600" height="300" frameborder="0"></iframe>
           </div>
         </div>
-      </section>
-      <section class="subscription">
+      </div>
+    </section>
+    <section class="subscription">
+      <div class="subscription_text">
+        <h2>Узнай о новых путешествиях первым!<br>
+          Подпишись на анонсы и спецпредложения.
+        </h2>
+        <p>Если вам удобнее получать информацию в WhatsApp, оставьте свой телефон и добавьте наш номер:
+          +375 29 568-12-34 в свой список контактов.<br>
+          Мы не любим спам и делаем рассылку не чаще одного раз в месяц.
+        </p>
+      </div>
+      <div class="subscription_form">
+        <form>
+          <input type="text" name="username" placeholder="Ваш E-mal">
+          <input type="number" name="phone" placeholder="+375295689547">
+          <input type="text" name="surname" placeholder="Фамилия">
+          <input type="text" name="name" placeholder="Имя">
+          <a class="button-orange" role="button" href="#">подписаться</a>
+        </form>
         <div class="subscription_text">
-          <h2>Узнай о новых путешествиях первым!<br>
-            Подпишись на анонсы и спецпредложения.
-          </h2>
-          <p>Если вам удобнее получать информацию в WhatsApp, оставьте свой телефон и добавьте наш номер:
-            +375 29 568-12-34 в свой список контактов.<br>
-            Мы не любим спам и делаем рассылку не чаще одного раз в месяц.
-          </p>
+          <p>Нажимая на кнопку, вы даете свое<strong> согласие на обработку персональных данных</strong> и
+            соглашаетесь <strong>с политикой в области обработки и защиты персональных данных.</strong></p>
         </div>
-        <div class="subscription_form">
-          <form>
-            <input type="text" name="username" placeholder="Ваш E-mal">
-            <input type="number" name="phone" placeholder="+375295689547">
-            <input type="text" name="surname" placeholder="Фамилия">
-            <input type="text" name="name" placeholder="Имя">
-            <a class="button" role="button" href="#">подписаться</a>
-          </form>
-          <div class="subscription_text">
-            <p>Нажимая на кнопку, вы даете свое<strong> согласие на обработку персональных данных</strong> и
-              соглашаетесь <strong>с политикой в области обработки и защиты персональных данных.</strong></p>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </main>
-
+  <footer>
+    <div class="footer_container">
+      <div class="footer_container-column">
+        <h4 class="footer_container-column-caption">ИНФОРМАЦИЯ</h4>
+        <a href="#" class="footer_container-column-text">о нас</a><br>
+        <a href="#" class="footer_container-column-text">онлайн запрос</a><br>
+        <a href="#" class="footer_container-column-text">позвони нам</a><br>
+        <a href="#" class="footer_container-column-text">условия бронирования</a><br>
+        <a href="#" class="footer_container-column-text">стать партнером</a>
+      </div>
+      <div class="footer_container-column">
+        <h4 class="footer_container-column-caption">ТУРИСТАМ</h4>
+        <a href="#" class="footer_container-column-text">отели</a><br>
+        <a href="#" class="footer_container-column-text">страны</a><br>
+        <a href="#" class="footer_container-column-text">акции и скидки</a><br>
+        <a href="#" class="footer_container-column-text">визы</a><br>
+        <a href="#" class="footer_container-column-text">медицинское страхование</a>
+      </div>
+      <div class="footer_container-column">
+        <h4 class="footer_container-column-caption">УСЛУГИ</h4>
+        <a href="#" class="footer_container-column-text">подбор туров</a><br>
+        <a href="#" class="footer_container-column-text">бронирование отелей</a><br>
+        <a href="#" class="footer_container-column-text">планирование отдыха</a><br>
+        <a href="#" class="footer_container-column-text">помощь в поиске</a><br>
+        <a href="#" class="footer_container-column-text">подборка авиабилетов</a>
+      </div>
+      <div class="footer_container-column">
+        <h4 class="footer_container-column-caption">НАШИ КОНТАКТЫ</h4>
+        <a href="#" class="footer_container-column-text">ТЦ ТРИНИТИ 3-й этаж</a><br>
+        <a href="#" class="footer_container-column-text">МТС+375295681234</a><br>
+        <a href="#" class="footer_container-column-text">А1 +375446589356</a><br>
+        <a href="#" class="footer_container-column-text">г.Гродно ул. Янки Купалы 87</a><br>
+        <a href="#" class="footer_container-column-text">© ЧТУП «Memorable Travel», 2010.</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/burger.js"></script>
 </body>
 
 </html>
