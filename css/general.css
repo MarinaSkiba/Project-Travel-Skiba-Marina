@@ -32,3 +32,25 @@
   color: black;
   box-shadow: 0 0 10px 0 #db5c01 inset, 0 0 10px 4px #db5c01;
 }
+.block_animation {
+  opacity: 0;
+  transform: translate(0px, 100%);
+  -webkit-transform: translate(0px, 100%);
+  -moz-transform: translate(0px, 100%);
+  -ms-transform: translate(0px, 100%);
+  -o-transform: translate(0px, 100%);
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+}
+
+.block_animation._show {
+  opacity: 1;
+  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+}
