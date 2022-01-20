@@ -1,15 +1,19 @@
 @import "general.css";
+
 :root {
   --bg-color: var(--orange);
 }
+
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
+
 body {
   background-color: #fcf1e0;
 }
+
 .bg_image {
   background: url(../images/kappadok_2.jpg);
   width: 100%;
@@ -19,30 +23,35 @@ body {
   background-position: center center;
   background-attachment: fixed;
   margin-top: -10px;
- 
-  
-  
+
+
+
   animation-name: change-images;
   animation-duration: 50s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-delay: 5s;
 }
+
 @keyframes change-images {
   0% {
-     background-image: url(../images/kappadok_2.jpg);
+    background-image: url(../images/kappadok_2.jpg);
   }
+
   35% {
-      background-image: url(../images/background_2.jpg);
+    background-image: url(../images/background_2.jpg);
   }
+
   65% {
     background-image: url(../images/background_3.jpg);
   }
+
   100% {
     background-image: url(../images/kappadok_2.jpg);
   }
 }
- .inner_text-block-item {
+
+.inner_text-block-item {
   width: 250px;
   height: 100px;
   margin: 20px;
@@ -52,12 +61,15 @@ body {
   box-shadow: 0px 0px 14px rgb(127, 127, 127, 0.5), 0px 0px 14px rgb(127, 127, 127, 50%);
   text-align: center;
 }
-.inner_text-block-item > h4 {
+
+.inner_text-block-item>h4 {
   padding: 3px;
 }
-.inner_text-block-item > p {
+
+.inner_text-block-item>p {
   padding-top: 5px;
 }
+
 .inner_text {
   display: flex;
   flex-wrap: wrap;
@@ -67,15 +79,18 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
 }
+
 h2 {
   text-align: center;
   margin-top: 50px;
   padding: 5px;
 }
-.inner_text-block-icon  {
- display: flex;
- justify-content: center;
+
+.inner_text-block-icon {
+  display: flex;
+  justify-content: center;
 }
+
 .special_tours {
   background-image: url(../images/Moraine-Lake.jpg);
   width: 100%;
@@ -85,14 +100,15 @@ h2 {
   background-position: center center;
   background-attachment: fixed;
 }
+
 .special_tours-block {
   height: 100vh;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .special_tours-block-item-img1,
 .special_tours-block-item-img2,
 .special_tours-block-item-img3 {
@@ -105,31 +121,96 @@ h2 {
   margin-left: 20px;
   border: 5px solid rgba(212, 210, 210, 0.473)
 }
+
 .special_tours-block-item-img1 {
   background-image: url(../images/свадьба.jpg);
 }
+
 .special_tours-block-item-img2 {
   background-image: url(../images/испания\ тур.jpg);
 }
+
 .special_tours-block-item-img3 {
   background-image: url(../images/арарат.jpg);
 }
+
+.special_tours-block-item {
+  width: 250px;
+  height: auto;
+
+}
+
+@media (max-width: 850px) {
+  .special_tours-block-item {
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+  }
+
+  .block-none {
+    display: none;
+  }
+
+  .special_tours-block-item-text {
+    width: 80%;
+
+  }
+
+  .special_tours-block-item-img1,
+  .special_tours-block-item-img2,
+  .special_tours-block-item-img3 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .special_tours-block {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+@media (max-width:600px) {
+  .special_tours-block-item-text span {
+    display: none;
+  }
+
+  @media (max-width:480px) {
+
+    .special_tours-block-item-img1,
+    .special_tours-block-item-img2,
+    .special_tours-block-item-img3 {
+      display: none;
+    }
+
+    .special_tours-block-item {
+      margin-left: 10px;
+    }
+  }
+}
+
+.button {
+  width: 150px;
+  margin: 0 auto;
+}
+
 .special_tours-block-item-text {
   overflow: hidden;
-  width: 250px;
-  height: 400px;
+  margin: 5px;
+  padding: 10px;
   text-align: center;
   margin-top: -30px;
   border-radius: 3px;
   box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2) inset;
   background-color: rgb(211, 209, 209);
 }
-.special_tours-block-item-text > h5 {
-  font-size: 25px;
+
+.special_tours-block-item-text>h5 {
+  font-size: 18px;
   padding: 5px;
 }
-.special_tours-block-item-text > p {
-  padding: 20px 5px;
+
+.special_tours-block-item-text>p {
+  padding: 5px 5px;
 }
 
 .destination_container {
@@ -142,29 +223,32 @@ h2 {
   width: 100%;
   height: auto;
 }
+
 .destination_container-map {
   margin: 50px 20px;
 }
+
 .destination_container-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 10px;
-  padding: 5px 5px; 
-  position: relative;
+  padding: 5px 5px;
+
 }
+
 .destination_container-text-title {
   padding: 5px;
   font-size: 40px;
 }
+
 .destination_container-text-txt {
   padding: 5px 10px;
   color: rgb(59, 57, 57);
 }
+
 .destination_container-text-quote {
   padding: 5px;
   font-size: 20px;
   font-style: italic;
 }
-
-

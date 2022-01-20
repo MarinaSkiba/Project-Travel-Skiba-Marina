@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
 :root {
-  --orange: #F8A73F; 
+  --orange: #F8A73F;
 }
+
 .button-orange {
+  display: block;
   border: 2px solid #db5c01;
   color: white;
   padding: 10px 20px;
@@ -17,13 +20,15 @@
   -o-border-radius: 10px;
   text-transform: uppercase;
   text-align: center;
-  margin: 10px 10px;
+  margin: 5px 10px;
   cursor: pointer;
   box-shadow: 0 0 40px 40px #db5c01 inset, 0 0 0 0 #f18d45;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
+
 .button-orange:hover,
 .button-orange:active {
   color: black;
   box-shadow: 0 0 10px 0 #db5c01 inset, 0 0 10px 4px #db5c01;
+}
