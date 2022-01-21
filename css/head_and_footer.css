@@ -190,11 +190,11 @@ footer {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 120px 30px 30px 10px;
     overflow: hidden;
-    transition: left 0.3s ease 0s;
-    -webkit-transition: left 0.3s ease 0s;
-    -moz-transition: left 0.3s ease 0s;
-    -ms-transition: left 0.3s ease 0s;
-    -o-transition: left 0.3s ease 0s;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
 }
 
   .topnav._active {
