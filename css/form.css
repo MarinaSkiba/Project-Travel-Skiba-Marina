@@ -33,18 +33,17 @@
 input {
   padding: 5px;
   margin: 2px;
+  color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
   border: 3px solid rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   outline: none;
-
 }
 
 .form_title {
   margin-top: 10px;
   width: 100%;
   color: white;
-
 }
 
 .wrapper_form {
@@ -59,7 +58,6 @@ input {
 
 .form_item {
   width: 200px;
-
 }
 
 .form_item-date {

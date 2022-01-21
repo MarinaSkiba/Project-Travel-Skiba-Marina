@@ -1,3 +1,4 @@
+'use strict';
 const country = document.querySelectorAll('.country_container');
 
 window.addEventListener('scroll', checkCountry);

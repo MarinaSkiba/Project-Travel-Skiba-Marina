@@ -1,3 +1,4 @@
+'use strict';
 const animation = document.querySelectorAll('.block_animation');
 
 window.addEventListener('scroll', checkAnimation);

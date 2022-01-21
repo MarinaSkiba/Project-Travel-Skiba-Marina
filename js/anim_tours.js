@@ -1,3 +1,4 @@
+'use strict';
 const animation = document.querySelectorAll('.tours');
 
 window.addEventListener('scroll', checkAnimation);
