@@ -3,28 +3,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
 
-:root {
-  --orange: #F8A73F;
-}
-
 .button-orange {
+  padding: 10px 20px;
+  margin: 5px 10px;
   display: block;
   border: 2px solid #db5c01;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  color: white;
+  text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  margin: 5px 10px;
-  cursor: pointer;
   box-shadow: 0 0 40px 40px #db5c01 inset, 0 0 0 0 #f18d45;
   transition: all 150ms ease-in-out;
   -webkit-transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -ms-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+  cursor: pointer;
 }
 
 .button-orange:hover,
@@ -35,51 +34,51 @@
 
 .block_animation {
   opacity: 0;
-  transform: translate(0px, 100%);
-  -webkit-transform: translate(0px, 100%);
-  -moz-transform: translate(0px, 100%);
-  -ms-transform: translate(0px, 100%);
-  -o-transform: translate(0px, 100%);
-  transition: all 0.5s ease 0s;
-  -webkit-transition: all 0.7s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -ms-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
+  transform: translate(0, 100%);
+  -webkit-transform: translate(0, 100%);
+  -moz-transform: translate(0, 100%);
+  -ms-transform: translate(0, 100%);
+  -o-transform: translate(0, 100%);
+  transition: all .5s ease 0s;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -ms-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
 }
 
 .block_animation._show {
   opacity: 1;
-  transform: translate(0px, 0px);
-  -webkit-transform: translate(0px, 0px);
-  -moz-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  -o-transform: translate(0px, 0px);
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
 }
 
 .share {
-  padding: 0;
   width: 45px;
+  padding: 0;
+  display: block;
   position: fixed;
-  z-index: 200;
   top: 40%;
   left: 0;
-  display: block;
+  z-index: 200;
 }
 
 .share_btn {
   width: 100%;
+  padding: 5px 0;
   display: block;
   line-height: 45px;
-  padding: 5px 0;
-  text-align: center;
   font-size: 25px;
+  text-align: center;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.4s ease-in-out 0s;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  -ms-transition: all 0.4s ease-in-out 0s;
-  -o-transition: all 0.4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+  -webkit-transition: all .4s ease-in-out 0s;
+  -moz-transition: all .4s ease-in-out 0s;
+  -ms-transition: all .4s ease-in-out 0s;
+  -o-transition: all .4s ease-in-out 0s;
 }
 
 .share_btn:hover {
@@ -113,38 +112,38 @@
 
 @media (max-width: 1150px) {
   .share {
-    top: auto;
-    display: flex;
-    bottom: 0;
     width: 250px;
-    left: 10%;
     height: 45px;
+    display: flex;
+    top: auto;
+    bottom: 0;
+    left: 10%;
   }
 }
 
 .phone_container {
-  width: 80px;
-  height: 80px;
-  text-align: center;
-  line-height: 80px;
-  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  text-align: center;
+  font-size: 25px;
   background: #db5c01;
   color: #fff;
   cursor: pointer;
-  box-shadow: 0px 9px 10px -5px rgba(0, 0, 0, 0.6);
-  -webkit-box-shadow: 0px 9px 5px -5px rgba(34, 60, 80, 0.6);
-  -moz-box-shadow: 0px 9px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 0 9px 10px -5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 9px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 0 9px 5px -5px rgba(34, 60, 80, 0.6);
 }
 
 .phone {
   position: fixed;
   bottom: 5%;
-  right: 5%;
+  right: 8%;
 }
 
 .phone_container::before,
@@ -157,7 +156,6 @@
   top: -20px;
   bottom: -20px;
   border: 1px solid #db5c01;
-  opacity: 0;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -165,9 +163,11 @@
   -o-border-radius: 50%;
   animation: phone 1.5s ease-out infinite;
   -webkit-animation: phone 1.5s ease-out infinite;
+  opacity: 0;
 }
-.phone_container::after{
-	animation-delay: .5s;
+
+.phone_container::after {
+  animation-delay: .5s;
 }
 
 @keyframes phone {
