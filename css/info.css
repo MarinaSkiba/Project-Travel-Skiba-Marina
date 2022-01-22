@@ -4,6 +4,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  width:100vw;
+  overflow-x:hidden;
+}
+
 body {
   background-color: #fcf1e0;
 }

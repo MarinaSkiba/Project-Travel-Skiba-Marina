@@ -6,7 +6,7 @@ window.addEventListener('scroll', checkAnimation);
 checkAnimation();
 
 function checkAnimation() {
-  var triggerBottom = window.innerHeight / 5 * 8;
+  var triggerBottom = window.innerHeight / 5 * 9;
 
   animation.forEach(block_animation => {
     const blockTop = block_animation.getBoundingClientRect().top;
@@ -21,4 +21,4 @@ function checkAnimation() {
 
   });
 
-}
+} 

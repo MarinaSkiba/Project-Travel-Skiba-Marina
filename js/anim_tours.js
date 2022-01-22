@@ -6,7 +6,7 @@ window.addEventListener('scroll', checkAnimation);
 checkAnimation();
 
 function checkAnimation() {
-  var triggerBottom = window.innerHeight / 5 * 4;
+  var triggerBottom = window.innerHeight / 5 * 6;
 
   animation.forEach(tours => {
     const tourTop = tours.getBoundingClientRect().top;

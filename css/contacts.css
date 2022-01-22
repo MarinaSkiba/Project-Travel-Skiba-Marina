@@ -4,6 +4,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  width:100vw;
+  overflow-x:hidden;
+}
+
 body {
   background-color: #fcf1e0;
   overflow-x: hidden;
@@ -146,4 +151,12 @@ input[type="tel"]:hover {
   .contacts_container-info-left p {
     font-size: 18px;
   }
+
+  .contacts_container-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  
 }
